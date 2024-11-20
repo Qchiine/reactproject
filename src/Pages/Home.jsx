@@ -12,8 +12,8 @@ function Home() {
     <>
       <Hero>
         <Banner
-          title="luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
+          title="Imperial Horizon"
+          subtitle="Bienvenue au coeur de notre légende"
         >
           <Link to="/rooms" className="btn-primary">
             our rooms

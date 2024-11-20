@@ -1,0 +1,59 @@
+/* Styles pour le conteneur principal */
+.luxury-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f5f5e9;
+    font-family: "Georgia", serif;
+  }
+  
+  /* Image */
+  .luxury-image img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Contenu */
+  .luxury-content {
+    width: 50%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Header */
+  .luxury-header {
+    text-align: left;
+  }
+  
+  .luxury-header span {
+    display: block;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .luxury-header ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .luxury-header li {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  /* Footer */
+  .luxury-footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .luxury-footer p {
+    margin: 0;
+  }
+  
